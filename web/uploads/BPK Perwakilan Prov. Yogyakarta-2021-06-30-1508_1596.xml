@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FortiAnalyzer_Report name="BPK Perwakilan Prov. Yogyakarta">
+	<chart name="Bandwidth Summary">
+		<id value="1">
+			<Time_Stamp>1622419200</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="2">
+			<Time_Stamp>1622505600</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="3">
+			<Time_Stamp>1622592000</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="4">
+			<Time_Stamp>1622678400</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="5">
+			<Time_Stamp>1622764800</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="6">
+			<Time_Stamp>1622851200</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="7">
+			<Time_Stamp>1622937600</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="8">
+			<Time_Stamp>1623024000</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="9">
+			<Time_Stamp>1623110400</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="10">
+			<Time_Stamp>1623196800</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="11">
+			<Time_Stamp>1623283200</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="12">
+			<Time_Stamp>1623369600</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="13">
+			<Time_Stamp>1623456000</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="14">
+			<Time_Stamp>1623542400</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="15">
+			<Time_Stamp>1623628800</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+		<id value="16">
+			<Time_Stamp>1623776400</Time_Stamp>
+			<Sent>343882281</Sent>
+			<Received>7818358078</Received>
+		</id>
+		<id value="17">
+			<Time_Stamp>1623862800</Time_Stamp>
+			<Sent>7674014143</Sent>
+			<Received>80829033422</Received>
+		</id>
+		<id value="18">
+			<Time_Stamp>1623949200</Time_Stamp>
+			<Sent>4347562513</Sent>
+			<Received>65134650018</Received>
+		</id>
+		<id value="19">
+			<Time_Stamp>1624035600</Time_Stamp>
+			<Sent>851079668</Sent>
+			<Received>22495033845</Received>
+		</id>
+		<id value="20">
+			<Time_Stamp>1624122000</Time_Stamp>
+			<Sent>473595131</Sent>
+			<Received>13119990437</Received>
+		</id>
+		<id value="21">
+			<Time_Stamp>1624208400</Time_Stamp>
+			<Sent>7522818107</Sent>
+			<Received>66367412882</Received>
+		</id>
+		<id value="22">
+			<Time_Stamp>1624294800</Time_Stamp>
+			<Sent>4669024066</Sent>
+			<Received>72751938857</Received>
+		</id>
+		<id value="23">
+			<Time_Stamp>1624381200</Time_Stamp>
+			<Sent>7773599033</Sent>
+			<Received>56423166855</Received>
+		</id>
+		<id value="24">
+			<Time_Stamp>1624467600</Time_Stamp>
+			<Sent>4213413462</Sent>
+			<Received>57140087784</Received>
+		</id>
+		<id value="25">
+			<Time_Stamp>1624554000</Time_Stamp>
+			<Sent>6215301075</Sent>
+			<Received>55271857811</Received>
+		</id>
+		<id value="26">
+			<Time_Stamp>1624640400</Time_Stamp>
+			<Sent>949640608</Sent>
+			<Received>28385434530</Received>
+		</id>
+		<id value="27">
+			<Time_Stamp>1624726800</Time_Stamp>
+			<Sent>412947793</Sent>
+			<Received>13804501906</Received>
+		</id>
+		<id value="28">
+			<Time_Stamp>1624813200</Time_Stamp>
+			<Sent>5240152304</Sent>
+			<Received>65717062757</Received>
+		</id>
+		<id value="29">
+			<Time_Stamp>1624899600</Time_Stamp>
+			<Sent>4975486479</Sent>
+			<Received>58630508330</Received>
+		</id>
+		<id value="30">
+			<Time_Stamp>1624924800</Time_Stamp>
+			<Sent>0</Sent>
+			<Received>0</Received>
+		</id>
+	</chart>
+	<chart name="Sessions Summary">
+		<id value="1">
+			<Time_Stamp>1622419200</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="2">
+			<Time_Stamp>1622505600</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="3">
+			<Time_Stamp>1622592000</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="4">
+			<Time_Stamp>1622678400</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="5">
+			<Time_Stamp>1622764800</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="6">
+			<Time_Stamp>1622851200</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="7">
+			<Time_Stamp>1622937600</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="8">
+			<Time_Stamp>1623024000</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="9">
+			<Time_Stamp>1623110400</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="10">
+			<Time_Stamp>1623196800</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="11">
+			<Time_Stamp>1623283200</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="12">
+			<Time_Stamp>1623369600</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="13">
+			<Time_Stamp>1623456000</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="14">
+			<Time_Stamp>1623542400</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="15">
+			<Time_Stamp>1623628800</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+		<id value="16">
+			<Time_Stamp>1623776400</Time_Stamp>
+			<Number_of_Sessions>26049</Number_of_Sessions>
+		</id>
+		<id value="17">
+			<Time_Stamp>1623862800</Time_Stamp>
+			<Number_of_Sessions>294864</Number_of_Sessions>
+		</id>
+		<id value="18">
+			<Time_Stamp>1623949200</Time_Stamp>
+			<Number_of_Sessions>278989</Number_of_Sessions>
+		</id>
+		<id value="19">
+			<Time_Stamp>1624035600</Time_Stamp>
+			<Number_of_Sessions>44155</Number_of_Sessions>
+		</id>
+		<id value="20">
+			<Time_Stamp>1624122000</Time_Stamp>
+			<Number_of_Sessions>33788</Number_of_Sessions>
+		</id>
+		<id value="21">
+			<Time_Stamp>1624208400</Time_Stamp>
+			<Number_of_Sessions>452847</Number_of_Sessions>
+		</id>
+		<id value="22">
+			<Time_Stamp>1624294800</Time_Stamp>
+			<Number_of_Sessions>337603</Number_of_Sessions>
+		</id>
+		<id value="23">
+			<Time_Stamp>1624381200</Time_Stamp>
+			<Number_of_Sessions>393087</Number_of_Sessions>
+		</id>
+		<id value="24">
+			<Time_Stamp>1624467600</Time_Stamp>
+			<Number_of_Sessions>428596</Number_of_Sessions>
+		</id>
+		<id value="25">
+			<Time_Stamp>1624554000</Time_Stamp>
+			<Number_of_Sessions>427140</Number_of_Sessions>
+		</id>
+		<id value="26">
+			<Time_Stamp>1624640400</Time_Stamp>
+			<Number_of_Sessions>60709</Number_of_Sessions>
+		</id>
+		<id value="27">
+			<Time_Stamp>1624726800</Time_Stamp>
+			<Number_of_Sessions>43761</Number_of_Sessions>
+		</id>
+		<id value="28">
+			<Time_Stamp>1624813200</Time_Stamp>
+			<Number_of_Sessions>543621</Number_of_Sessions>
+		</id>
+		<id value="29">
+			<Time_Stamp>1624899600</Time_Stamp>
+			<Number_of_Sessions>362153</Number_of_Sessions>
+		</id>
+		<id value="30">
+			<Time_Stamp>1624924800</Time_Stamp>
+			<Number_of_Sessions>0</Number_of_Sessions>
+		</id>
+	</chart>
+	<table name="Traffic Statistics">
+		<id value="1">
+			<Summary>Total Sessions</Summary>
+			<Statistics>8,875,082</Statistics>
+		</id>
+		<id value="2">
+			<Summary>Total Bytes Transferred</Summary>
+			<Statistics>1,942.51GB</Statistics>
+		</id>
+		<id value="3">
+			<Summary>Most Active Date By Sessions</Summary>
+			<Statistics>2021-06-04</Statistics>
+		</id>
+		<id value="4">
+			<Summary>Total Users</Summary>
+			<Statistics>372</Statistics>
+		</id>
+		<id value="5">
+			<Summary>Total Applications</Summary>
+			<Statistics>2,534</Statistics>
+		</id>
+		<id value="6">
+			<Summary>Total Destinations</Summary>
+			<Statistics>53,332</Statistics>
+		</id>
+		<id value="7">
+			<Summary>Average Sessions Per Day</Summary>
+			<Statistics>295,836</Statistics>
+		</id>
+		<id value="8">
+			<Summary>Average Bytes Per Day</Summary>
+			<Statistics>64.75GB</Statistics>
+		</id>
+	</table>
+	<table name="Top 30 Applications by Bandwidth and Sessions">
+		<id value="1">
+			<Application>HTTPS.BROWSER</Application>
+			<Bandwidth>818.04 GB</Bandwidth>
+			<Sessions>2,393,517 </Sessions>
+		</id>
+		<id value="2">
+			<Application>YouTube</Application>
+			<Bandwidth>334.60 GB</Bandwidth>
+			<Sessions>230,064 </Sessions>
+		</id>
+		<id value="3">
+			<Application>Facebook</Application>
+			<Bandwidth>147.90 GB</Bandwidth>
+			<Sessions>669,350 </Sessions>
+		</id>
+		<id value="4">
+			<Application>udp/8801</Application>
+			<Bandwidth>136.05 GB</Bandwidth>
+			<Sessions>1,926 </Sessions>
+		</id>
+		<id value="5">
+			<Application>MS.Windows.Update</Application>
+			<Bandwidth>90.32 GB</Bandwidth>
+			<Sessions>316,677 </Sessions>
+		</id>
+		<id value="6">
+			<Application>Google.Services</Application>
+			<Bandwidth>62.03 GB</Bandwidth>
+			<Sessions>403,309 </Sessions>
+		</id>
+		<id value="7">
+			<Application>WhatsApp</Application>
+			<Bandwidth>60.22 GB</Bandwidth>
+			<Sessions>161,693 </Sessions>
+		</id>
+		<id value="8">
+			<Application>Microsoft.Office.Update</Application>
+			<Bandwidth>31.49 GB</Bandwidth>
+			<Sessions>29,662 </Sessions>
+		</id>
+		<id value="9">
+			<Application>Google.Accounts</Application>
+			<Bandwidth>27.71 GB</Bandwidth>
+			<Sessions>221,145 </Sessions>
+		</id>
+		<id value="10">
+			<Application>Microsoft.Portal</Application>
+			<Bandwidth>20.09 GB</Bandwidth>
+			<Sessions>319,305 </Sessions>
+		</id>
+		<id value="11">
+			<Application>Zoom</Application>
+			<Bandwidth>17.86 GB</Bandwidth>
+			<Sessions>722 </Sessions>
+		</id>
+		<id value="12">
+			<Application>HTTPS</Application>
+			<Bandwidth>17.65 GB</Bandwidth>
+			<Sessions>705,015 </Sessions>
+		</id>
+		<id value="13">
+			<Application>Steam</Application>
+			<Bandwidth>17.36 GB</Bandwidth>
+			<Sessions>3,051 </Sessions>
+		</id>
+		<id value="14">
+			<Application>Apple.Software.Update</Application>
+			<Bandwidth>16.40 GB</Bandwidth>
+			<Sessions>1,886 </Sessions>
+		</id>
+		<id value="15">
+			<Application>HTTP.Segmented.Download</Application>
+			<Bandwidth>15.04 GB</Bandwidth>
+			<Sessions>7,631 </Sessions>
+		</id>
+		<id value="16">
+			<Application>HTTP.Download.Accelerator</Application>
+			<Bandwidth>13.58 GB</Bandwidth>
+			<Sessions>1,617 </Sessions>
+		</id>
+		<id value="17">
+			<Application>HTTP.BROWSER</Application>
+			<Bandwidth>12.52 GB</Bandwidth>
+			<Sessions>169,353 </Sessions>
+		</id>
+		<id value="18">
+			<Application>OneDrive</Application>
+			<Bandwidth>7.31 GB</Bandwidth>
+			<Sessions>11,231 </Sessions>
+		</id>
+		<id value="19">
+			<Application>TikTok</Application>
+			<Bandwidth>6.14 GB</Bandwidth>
+			<Sessions>53,014 </Sessions>
+		</id>
+		<id value="20">
+			<Application>Google.Play</Application>
+			<Bandwidth>5.49 GB</Bandwidth>
+			<Sessions>49,402 </Sessions>
+		</id>
+		<id value="21">
+			<Application>Microsoft.CDN</Application>
+			<Bandwidth>5.26 GB</Bandwidth>
+			<Sessions>4,368 </Sessions>
+		</id>
+		<id value="22">
+			<Application>Telegram</Application>
+			<Bandwidth>5.01 GB</Bandwidth>
+			<Sessions>22,878 </Sessions>
+		</id>
+		<id value="23">
+			<Application>MediaFire</Application>
+			<Bandwidth>4.98 GB</Bandwidth>
+			<Sessions>198 </Sessions>
+		</id>
+		<id value="24">
+			<Application>Twitter</Application>
+			<Bandwidth>4.33 GB</Bandwidth>
+			<Sessions>78,547 </Sessions>
+		</id>
+		<id value="25">
+			<Application>SourceForge</Application>
+			<Bandwidth>3.47 GB</Bandwidth>
+			<Sessions>1,355 </Sessions>
+		</id>
+		<id value="26">
+			<Application>Microsoft.Office.365.Portal</Application>
+			<Bandwidth>3.45 GB</Bandwidth>
+			<Sessions>36,121 </Sessions>
+		</id>
+		<id value="27">
+			<Application>Spotify</Application>
+			<Bandwidth>3.39 GB</Bandwidth>
+			<Sessions>24,461 </Sessions>
+		</id>
+		<id value="28">
+			<Application>Google.Ads</Application>
+			<Bandwidth>3.21 GB</Bandwidth>
+			<Sessions>75,894 </Sessions>
+		</id>
+		<id value="29">
+			<Application>Adobe.Web</Application>
+			<Bandwidth>2.91 GB</Bandwidth>
+			<Sessions>12,560 </Sessions>
+		</id>
+		<id value="30">
+			<Application>STUN</Application>
+			<Bandwidth>2.69 GB</Bandwidth>
+			<Sessions>4,744 </Sessions>
+		</id>
+	</table>
+	<table name="Application Categories by Bandwidth">
+		<id value="1">
+			<Application_Category>Web.Client</Application_Category>
+			<Bandwidth>360.65 GB</Bandwidth>
+		</id>
+		<id value="2">
+			<Application_Category>Video/Audio</Application_Category>
+			<Bandwidth>63.43 GB</Bandwidth>
+		</id>
+		<id value="3">
+			<Application_Category>Collaboration</Application_Category>
+			<Bandwidth>48.70 GB</Bandwidth>
+		</id>
+		<id value="4">
+			<Application_Category>Social.Media</Application_Category>
+			<Bandwidth>48.05 GB</Bandwidth>
+		</id>
+		<id value="5">
+			<Application_Category>General.Interest</Application_Category>
+			<Bandwidth>31.31 GB</Bandwidth>
+		</id>
+		<id value="6">
+			<Application_Category>Update</Application_Category>
+			<Bandwidth>16.32 GB</Bandwidth>
+		</id>
+		<id value="7">
+			<Application_Category>Storage.Backup</Application_Category>
+			<Bandwidth>9.44 GB</Bandwidth>
+		</id>
+		<id value="8">
+			<Application_Category>Network.Service</Application_Category>
+			<Bandwidth>8.52 GB</Bandwidth>
+		</id>
+		<id value="9">
+			<Application_Category>Mobile</Application_Category>
+			<Bandwidth>1.46 GB</Bandwidth>
+		</id>
+		<id value="10">
+			<Application_Category>Email</Application_Category>
+			<Bandwidth>905.31 MB</Bandwidth>
+		</id>
+	</table>
+	<table name="Top 30 Users by Bandwidth and Sessions">
+		<id value="1">
+			<User_or_IP_>10.40.21.32</User_or_IP_>
+			<Bandwidth>227.79 GB</Bandwidth>
+			<Sessions>84,188 </Sessions>
+		</id>
+		<id value="2">
+			<User_or_IP_>10.40.21.23</User_or_IP_>
+			<Bandwidth>56.00 GB</Bandwidth>
+			<Sessions>62,126 </Sessions>
+		</id>
+		<id value="3">
+			<User_or_IP_>10.40.21.34</User_or_IP_>
+			<Bandwidth>52.49 GB</Bandwidth>
+			<Sessions>45,766 </Sessions>
+		</id>
+		<id value="4">
+			<User_or_IP_>10.40.20.120</User_or_IP_>
+			<Bandwidth>39.10 GB</Bandwidth>
+			<Sessions>22,308 </Sessions>
+		</id>
+		<id value="5">
+			<User_or_IP_>10.40.23.35</User_or_IP_>
+			<Bandwidth>39.01 GB</Bandwidth>
+			<Sessions>41,391 </Sessions>
+		</id>
+		<id value="6">
+			<User_or_IP_>10.40.21.43</User_or_IP_>
+			<Bandwidth>36.13 GB</Bandwidth>
+			<Sessions>65,004 </Sessions>
+		</id>
+		<id value="7">
+			<User_or_IP_>10.40.21.38</User_or_IP_>
+			<Bandwidth>35.72 GB</Bandwidth>
+			<Sessions>212,341 </Sessions>
+		</id>
+		<id value="8">
+			<User_or_IP_>10.40.21.26</User_or_IP_>
+			<Bandwidth>31.81 GB</Bandwidth>
+			<Sessions>136,062 </Sessions>
+		</id>
+		<id value="9">
+			<User_or_IP_>10.40.20.59</User_or_IP_>
+			<Bandwidth>27.98 GB</Bandwidth>
+			<Sessions>92,766 </Sessions>
+		</id>
+		<id value="10">
+			<User_or_IP_>10.40.23.30</User_or_IP_>
+			<Bandwidth>27.45 GB</Bandwidth>
+			<Sessions>54,737 </Sessions>
+		</id>
+		<id value="11">
+			<User_or_IP_>10.40.11.17</User_or_IP_>
+			<Bandwidth>22.47 GB</Bandwidth>
+			<Sessions>110,309 </Sessions>
+		</id>
+		<id value="12">
+			<User_or_IP_>10.40.11.38</User_or_IP_>
+			<Bandwidth>19.99 GB</Bandwidth>
+			<Sessions>19,094 </Sessions>
+		</id>
+		<id value="13">
+			<User_or_IP_>10.40.24.24</User_or_IP_>
+			<Bandwidth>19.80 GB</Bandwidth>
+			<Sessions>62,631 </Sessions>
+		</id>
+		<id value="14">
+			<User_or_IP_>10.40.23.26</User_or_IP_>
+			<Bandwidth>19.05 GB</Bandwidth>
+			<Sessions>319,486 </Sessions>
+		</id>
+		<id value="15">
+			<User_or_IP_>10.40.23.28</User_or_IP_>
+			<Bandwidth>18.60 GB</Bandwidth>
+			<Sessions>40,005 </Sessions>
+		</id>
+		<id value="16">
+			<User_or_IP_>10.40.11.26</User_or_IP_>
+			<Bandwidth>16.22 GB</Bandwidth>
+			<Sessions>41,968 </Sessions>
+		</id>
+		<id value="17">
+			<User_or_IP_>10.40.11.18</User_or_IP_>
+			<Bandwidth>15.63 GB</Bandwidth>
+			<Sessions>45,584 </Sessions>
+		</id>
+		<id value="18">
+			<User_or_IP_>10.40.11.37</User_or_IP_>
+			<Bandwidth>14.95 GB</Bandwidth>
+			<Sessions>13,076 </Sessions>
+		</id>
+		<id value="19">
+			<User_or_IP_>10.40.21.27</User_or_IP_>
+			<Bandwidth>14.68 GB</Bandwidth>
+			<Sessions>65,010 </Sessions>
+		</id>
+		<id value="20">
+			<User_or_IP_>10.40.11.28</User_or_IP_>
+			<Bandwidth>14.63 GB</Bandwidth>
+			<Sessions>43,340 </Sessions>
+		</id>
+		<id value="21">
+			<User_or_IP_>10.40.20.15</User_or_IP_>
+			<Bandwidth>14.40 GB</Bandwidth>
+			<Sessions>45,392 </Sessions>
+		</id>
+		<id value="22">
+			<User_or_IP_>10.40.11.21</User_or_IP_>
+			<Bandwidth>12.88 GB</Bandwidth>
+			<Sessions>43,403 </Sessions>
+		</id>
+		<id value="23">
+			<User_or_IP_>10.40.20.73</User_or_IP_>
+			<Bandwidth>12.75 GB</Bandwidth>
+			<Sessions>25,645 </Sessions>
+		</id>
+		<id value="24">
+			<User_or_IP_>10.40.23.25</User_or_IP_>
+			<Bandwidth>12.70 GB</Bandwidth>
+			<Sessions>56,862 </Sessions>
+		</id>
+		<id value="25">
+			<User_or_IP_>10.40.24.22</User_or_IP_>
+			<Bandwidth>12.01 GB</Bandwidth>
+			<Sessions>42,132 </Sessions>
+		</id>
+		<id value="26">
+			<User_or_IP_>10.40.20.25</User_or_IP_>
+			<Bandwidth>11.94 GB</Bandwidth>
+			<Sessions>48,280 </Sessions>
+		</id>
+		<id value="27">
+			<User_or_IP_>10.40.20.50</User_or_IP_>
+			<Bandwidth>11.77 GB</Bandwidth>
+			<Sessions>56,569 </Sessions>
+		</id>
+		<id value="28">
+			<User_or_IP_>10.40.21.28</User_or_IP_>
+			<Bandwidth>11.64 GB</Bandwidth>
+			<Sessions>47,276 </Sessions>
+		</id>
+		<id value="29">
+			<User_or_IP_>10.40.20.62</User_or_IP_>
+			<Bandwidth>11.51 GB</Bandwidth>
+			<Sessions>67,060 </Sessions>
+		</id>
+		<id value="30">
+			<User_or_IP_>10.40.20.87</User_or_IP_>
+			<Bandwidth>11.49 GB</Bandwidth>
+			<Sessions>28,373 </Sessions>
+		</id>
+	</table>
+	<chart name="Active Users">
+		<id value="1">
+			<Time_Stamp>1622419200</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="2">
+			<Time_Stamp>1622505600</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="3">
+			<Time_Stamp>1622592000</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="4">
+			<Time_Stamp>1622678400</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="5">
+			<Time_Stamp>1622764800</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="6">
+			<Time_Stamp>1622851200</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="7">
+			<Time_Stamp>1622937600</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="8">
+			<Time_Stamp>1623024000</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="9">
+			<Time_Stamp>1623110400</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="10">
+			<Time_Stamp>1623196800</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="11">
+			<Time_Stamp>1623283200</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="12">
+			<Time_Stamp>1623369600</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="13">
+			<Time_Stamp>1623456000</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="14">
+			<Time_Stamp>1623542400</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="15">
+			<Time_Stamp>1623628800</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+		<id value="16">
+			<Time_Stamp>1623776400</Time_Stamp>
+			<Active_Users>122</Active_Users>
+		</id>
+		<id value="17">
+			<Time_Stamp>1623862800</Time_Stamp>
+			<Active_Users>193</Active_Users>
+		</id>
+		<id value="18">
+			<Time_Stamp>1623949200</Time_Stamp>
+			<Active_Users>199</Active_Users>
+		</id>
+		<id value="19">
+			<Time_Stamp>1624035600</Time_Stamp>
+			<Active_Users>68</Active_Users>
+		</id>
+		<id value="20">
+			<Time_Stamp>1624122000</Time_Stamp>
+			<Active_Users>54</Active_Users>
+		</id>
+		<id value="21">
+			<Time_Stamp>1624208400</Time_Stamp>
+			<Active_Users>203</Active_Users>
+		</id>
+		<id value="22">
+			<Time_Stamp>1624294800</Time_Stamp>
+			<Active_Users>189</Active_Users>
+		</id>
+		<id value="23">
+			<Time_Stamp>1624381200</Time_Stamp>
+			<Active_Users>179</Active_Users>
+		</id>
+		<id value="24">
+			<Time_Stamp>1624467600</Time_Stamp>
+			<Active_Users>169</Active_Users>
+		</id>
+		<id value="25">
+			<Time_Stamp>1624554000</Time_Stamp>
+			<Active_Users>182</Active_Users>
+		</id>
+		<id value="26">
+			<Time_Stamp>1624640400</Time_Stamp>
+			<Active_Users>71</Active_Users>
+		</id>
+		<id value="27">
+			<Time_Stamp>1624726800</Time_Stamp>
+			<Active_Users>49</Active_Users>
+		</id>
+		<id value="28">
+			<Time_Stamp>1624813200</Time_Stamp>
+			<Active_Users>166</Active_Users>
+		</id>
+		<id value="29">
+			<Time_Stamp>1624899600</Time_Stamp>
+			<Active_Users>156</Active_Users>
+		</id>
+		<id value="30">
+			<Time_Stamp>1624924800</Time_Stamp>
+			<Active_Users>0</Active_Users>
+		</id>
+	</chart>
+	<table name="Top 30 Destination by Bandwidth and Sessions">
+		<id value="1">
+			<Hostname_or_IP_>googlevideo.com</Hostname_or_IP_>
+			<Bandwidth>120.81 GB</Bandwidth>
+			<Sessions>77,246 </Sessions>
+		</id>
+		<id value="2">
+			<Hostname_or_IP_>36.92.234.206</Hostname_or_IP_>
+			<Bandwidth>75.95 GB</Bandwidth>
+			<Sessions>12,240 </Sessions>
+		</id>
+		<id value="3">
+			<Hostname_or_IP_>36.92.234.205</Hostname_or_IP_>
+			<Bandwidth>70.03 GB</Bandwidth>
+			<Sessions>12,360 </Sessions>
+		</id>
+		<id value="4">
+			<Hostname_or_IP_>36.92.234.207</Hostname_or_IP_>
+			<Bandwidth>64.34 GB</Bandwidth>
+			<Sessions>12,305 </Sessions>
+		</id>
+		<id value="5">
+			<Hostname_or_IP_>36.92.234.204</Hostname_or_IP_>
+			<Bandwidth>62.35 GB</Bandwidth>
+			<Sessions>12,301 </Sessions>
+		</id>
+		<id value="6">
+			<Hostname_or_IP_>157.240.15.20</Hostname_or_IP_>
+			<Bandwidth>36.71 GB</Bandwidth>
+			<Sessions>7,633 </Sessions>
+		</id>
+		<id value="7">
+			<Hostname_or_IP_>157.240.15.63</Hostname_or_IP_>
+			<Bandwidth>34.11 GB</Bandwidth>
+			<Sessions>19,457 </Sessions>
+		</id>
+		<id value="8">
+			<Hostname_or_IP_>157.240.15.60</Hostname_or_IP_>
+			<Bandwidth>30.04 GB</Bandwidth>
+			<Sessions>26,520 </Sessions>
+		</id>
+		<id value="9">
+			<Hostname_or_IP_>118.98.111.206</Hostname_or_IP_>
+			<Bandwidth>25.62 GB</Bandwidth>
+			<Sessions>4,624 </Sessions>
+		</id>
+		<id value="10">
+			<Hostname_or_IP_>118.98.111.204</Hostname_or_IP_>
+			<Bandwidth>24.46 GB</Bandwidth>
+			<Sessions>4,271 </Sessions>
+		</id>
+		<id value="11">
+			<Hostname_or_IP_>118.98.111.209</Hostname_or_IP_>
+			<Bandwidth>24.43 GB</Bandwidth>
+			<Sessions>4,693 </Sessions>
+		</id>
+		<id value="12">
+			<Hostname_or_IP_>118.98.108.207</Hostname_or_IP_>
+			<Bandwidth>23.77 GB</Bandwidth>
+			<Sessions>4,715 </Sessions>
+		</id>
+		<id value="13">
+			<Hostname_or_IP_>118.98.108.204</Hostname_or_IP_>
+			<Bandwidth>23.32 GB</Bandwidth>
+			<Sessions>3,761 </Sessions>
+		</id>
+		<id value="14">
+			<Hostname_or_IP_>118.98.108.205</Hostname_or_IP_>
+			<Bandwidth>22.68 GB</Bandwidth>
+			<Sessions>4,117 </Sessions>
+		</id>
+		<id value="15">
+			<Hostname_or_IP_>118.98.111.207</Hostname_or_IP_>
+			<Bandwidth>22.30 GB</Bandwidth>
+			<Sessions>3,852 </Sessions>
+		</id>
+		<id value="16">
+			<Hostname_or_IP_>118.98.108.206</Hostname_or_IP_>
+			<Bandwidth>22.23 GB</Bandwidth>
+			<Sessions>4,211 </Sessions>
+		</id>
+		<id value="17">
+			<Hostname_or_IP_>172.217.194.132</Hostname_or_IP_>
+			<Bandwidth>21.72 GB</Bandwidth>
+			<Sessions>65,558 </Sessions>
+		</id>
+		<id value="18">
+			<Hostname_or_IP_>117.18.232.240</Hostname_or_IP_>
+			<Bandwidth>21.60 GB</Bandwidth>
+			<Sessions>10,901 </Sessions>
+		</id>
+		<id value="19">
+			<Hostname_or_IP_>118.98.111.208</Hostname_or_IP_>
+			<Bandwidth>21.52 GB</Bandwidth>
+			<Sessions>4,122 </Sessions>
+		</id>
+		<id value="20">
+			<Hostname_or_IP_>118.98.111.210</Hostname_or_IP_>
+			<Bandwidth>21.41 GB</Bandwidth>
+			<Sessions>4,663 </Sessions>
+		</id>
+		<id value="21">
+			<Hostname_or_IP_>118.98.111.211</Hostname_or_IP_>
+			<Bandwidth>21.20 GB</Bandwidth>
+			<Sessions>4,257 </Sessions>
+		</id>
+		<id value="22">
+			<Hostname_or_IP_>118.98.111.205</Hostname_or_IP_>
+			<Bandwidth>20.51 GB</Bandwidth>
+			<Sessions>3,671 </Sessions>
+		</id>
+		<id value="23">
+			<Hostname_or_IP_>157.240.13.52</Hostname_or_IP_>
+			<Bandwidth>18.43 GB</Bandwidth>
+			<Sessions>18,355 </Sessions>
+		</id>
+		<id value="24">
+			<Hostname_or_IP_>whatsapp.net</Hostname_or_IP_>
+			<Bandwidth>14.65 GB</Bandwidth>
+			<Sessions>13,656 </Sessions>
+		</id>
+		<id value="25">
+			<Hostname_or_IP_>134.224.147.20</Hostname_or_IP_>
+			<Bandwidth>14.36 GB</Bandwidth>
+			<Sessions>62 </Sessions>
+		</id>
+		<id value="26">
+			<Hostname_or_IP_>157.240.13.54</Hostname_or_IP_>
+			<Bandwidth>13.72 GB</Bandwidth>
+			<Sessions>18,244 </Sessions>
+		</id>
+		<id value="27">
+			<Hostname_or_IP_>74.125.24.132</Hostname_or_IP_>
+			<Bandwidth>13.21 GB</Bandwidth>
+			<Sessions>75,521 </Sessions>
+		</id>
+		<id value="28">
+			<Hostname_or_IP_>159.65.46.213</Hostname_or_IP_>
+			<Bandwidth>12.24 GB</Bandwidth>
+			<Sessions>11,012 </Sessions>
+		</id>
+		<id value="29">
+			<Hostname_or_IP_>157.240.7.52</Hostname_or_IP_>
+			<Bandwidth>11.87 GB</Bandwidth>
+			<Sessions>15,105 </Sessions>
+		</id>
+		<id value="30">
+			<Hostname_or_IP_>157.240.13.15</Hostname_or_IP_>
+			<Bandwidth>11.37 GB</Bandwidth>
+			<Sessions>4,674 </Sessions>
+		</id>
+	</table>
+</FortiAnalyzer_Report>
