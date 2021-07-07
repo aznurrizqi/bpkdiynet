@@ -14,6 +14,8 @@ use app\models\AppCategory;
 use app\models\TopApp;
 use app\models\TopUser;
 use app\models\TopDestination;
+use app\models\ActiveUser;
+use app\models\TrafficStatistic;
 use yii\web\UploadedFile;
 use app\models\AppCategorySearch;
 use app\models\TopAppSearch;
@@ -77,23 +79,20 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $topAppSearchModel = new TopAppSearch();
-        $topAppDataProvider = $topAppSearchModel->search(Yii::$app->request->queryParams);
+        // $topDstSearchModel = new TopDestinationSearch();
+        // $topDstDataProvider = $topDstSearchModel->search(Yii::$app->request->queryParams);
 
-        $appCatSearchModel = new AppCategorySearch();
-        $appCatDataProvider = $appCatSearchModel->search(Yii::$app->request->queryParams);
-
-        $topUserSearchModel = new TopUserSearch();
-        $topUserDataProvider = $topUserSearchModel->search(Yii::$app->request->queryParams);
-
-        $topDstSearchModel = new TopDestinationSearch();
-        $topDstDataProvider = $topDstSearchModel->search(Yii::$app->request->queryParams);
+        $totalSession = TrafficStatistic::find()->where(['summary_type' => 'Total Sessions'])->one()->statistic;
+        $totalDataTransferred = TrafficStatistic::find()->where(['summary_type' => 'Total Bytes Transferred'])->one()->statistic;
+        $busiestDay = TrafficStatistic::find()->where(['summary_type' => 'Most Active Date By Sessions'])->one()->statistic;
+        $totalUser = TrafficStatistic::find()->where(['summary_type' => 'Total Users'])->one()->statistic;
 
         return $this->render('index', [
-            'appCatDataProvider' => $appCatDataProvider,
-            'topAppDataProvider' => $topAppDataProvider,
-            'topUserDataProvider' => $topUserDataProvider,
-            'topDstDataProvider' => $topDstDataProvider,
+            // 'topDstDataProvider' => $topDstDataProvider,
+            'totalSession' => $totalSession,
+            'totalDataTransferred' => $totalDataTransferred,
+            'busiestDay' => $busiestDay,
+            'totalUser' => $totalUser,
         ]);
     }
 
@@ -182,50 +181,78 @@ class SiteController extends Controller
             $xmlob = simplexml_load_string($xmlfile);
             $xmljson = json_encode($xmlob);
             $xmlarray = json_decode($xmljson, true);
-            
+
+            // get traffic statistics
+            $trafficStatisticArr = $xmlarray["table"][0]["id"];
+            for ($x = 0; $x < count($trafficStatisticArr); $x++) {
+                $modelTrafficStatistics = new TrafficStatistic();
+                $modelTrafficStatistics->summary_type = $trafficStatisticArr[$x]["Summary"];
+                $modelTrafficStatistics->statistic = $trafficStatisticArr[$x]["Statistics"];
+
+                if ($modelTrafficStatistics->save()) {
+
+                } else {
+                    $successFlag = false;
+                }        
+            }
+
+            // get active users
+            $activeUserArr = $xmlarray["chart"][2]["id"];
+            for ($x = 0; $x < count($activeUserArr); $x++) {
+                $modelActiveUser = new ActiveUser();
+                $modelActiveUser->on_date = date('Y-m-d', $activeUserArr[$x]["Time_Stamp"]);
+                $modelActiveUser->user_number = intval($activeUserArr[$x]["Active_Users"]);
+
+                if ($modelActiveUser->save()) {
+
+                } else {
+                    $successFlag = false;
+                }        
+            }
+
             // get top app
-            // $topappArr = $xmlarray["table"][1]["id"];
-            // for ($x = 0; $x < count($topappArr); $x++) {
-            //     $modelTopApp = new TopApp();
-            //     $modelTopApp->application = str_replace(array('.', '_'), ' ', $topappArr[$x]["Application"]);
-            //     $modelTopApp->bandwidth = floatval($topappArr[$x]["Bandwidth"]);
-            //     $modelTopApp->session = $topappArr[$x]["Sessions"];
+            $topappArr = $xmlarray["table"][1]["id"];
+            for ($x = 0; $x < count($topappArr); $x++) {
+                $modelTopApp = new TopApp();
+                $modelTopApp->application = str_replace(array('.', '_'), ' ', $topappArr[$x]["Application"]);
+                $modelTopApp->bandwidth = floatval($topappArr[$x]["Bandwidth"]);
+                $modelTopApp->session = $topappArr[$x]["Sessions"];
 
-            //     if ($modelTopApp->save()) {
+                if ($modelTopApp->save()) {
 
-            //     } else {
-            //         $successFlag = false;
-            //     }        
-            // }
+                } else {
+                    $successFlag = false;
+                }        
+            }
 
             // get app category
-            // $appcatArr = $xmlarray["table"][2]["id"];
-            // for ($x = 0; $x < count($appcatArr); $x++) {
-            //     $modelAppCat = new AppCategory();
-            //     $modelAppCat->app_category = str_replace(array('.', '_'), ' ', $appcatArr[$x]["Application_Category"]);
-            //     $modelAppCat->bandwidth = floatval($appcatArr[$x]["Bandwidth"]);
+            $appcatArr = $xmlarray["table"][2]["id"];
+            for ($x = 0; $x < count($appcatArr); $x++) {
+                $modelAppCat = new AppCategory();
+                $modelAppCat->app_category = str_replace(array('.', '_'), ' ', $appcatArr[$x]["Application_Category"]);
+                $modelAppCat->bandwidth = floatval($appcatArr[$x]["Bandwidth"]);
 
-            //     if ($modelAppCat->save()) {
+                if ($modelAppCat->save()) {
 
-            //     } else {
-            //         $successFlag = false;
-            //     }        
-            // }
+                } else {
+                    $successFlag = false;
+                }        
+            }
 
             // get top user
-            // $topuserArr = $xmlarray["table"][3]["id"];
-            // for ($x = 0; $x < count($topuserArr); $x++) {
-            //     $modelTopUser = new TopUser();
-            //     $modelTopUser->srcip = $topuserArr[$x]["User_or_IP_"];
-            //     $modelTopUser->bandwidth = floatval($topuserArr[$x]["Bandwidth"]);
-            //     $modelTopUser->session = $topuserArr[$x]["Sessions"];
+            $topuserArr = $xmlarray["table"][3]["id"];
+            for ($x = 0; $x < count($topuserArr); $x++) {
+                $modelTopUser = new TopUser();
+                $modelTopUser->srcip = $topuserArr[$x]["User_or_IP_"];
+                $modelTopUser->bandwidth = floatval($topuserArr[$x]["Bandwidth"]);
+                $modelTopUser->session = $topuserArr[$x]["Sessions"];
 
-            //     if ($modelTopUser->save()) {
+                if ($modelTopUser->save()) {
 
-            //     } else {
-            //         $successFlag = false;
-            //     }        
-            // }
+                } else {
+                    $successFlag = false;
+                }        
+            }
 
             // get top destination
             $topdestArr = $xmlarray["table"][4]["id"];
