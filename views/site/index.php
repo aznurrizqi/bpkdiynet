@@ -15,6 +15,12 @@ $this->registerJsFile("https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Cha
 ?>
 <div class="site-index">
     <div class="body-content">
+
+        </br>
+        </br>
+        </br>
+        </br>
+
         <div class="row">
             <div class="col-lg-3">
                 <div class="panel panel-default">
