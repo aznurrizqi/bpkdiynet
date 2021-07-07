@@ -41,7 +41,7 @@ $this->registerJsFile("https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Cha
             <div class="col-lg-3">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <h5><?= $totalDataTransferred ?></h5>
+                        <h5><?= $busiestDay ?></h5>
                         <h4>Hari Tersibuk</h4>
                     </div>
                 </div>
